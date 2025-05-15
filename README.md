@@ -7,7 +7,7 @@
 1. Ensure you have Node.js and MongoDB installed on your machine.
 2. Clone the repository:
    ```bash
-   git clone https://github.in/rishikesh
+   git clone https://github.com/rishikesh835/ecommerce.git
    ```
 3. Navigate to the project directory:
    ```bash
