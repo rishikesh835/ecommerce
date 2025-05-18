@@ -9,10 +9,10 @@ export default function Private({ children }) {
   useEffect(() => {
     const authCheck = async () => {
       const res = await axios.get("/api/v1/auth/user-auth");
-      console.log(res + "1");
+      // console.log(res + "1");
       if (res.data.ok) {
         setOk(true);
-        console.log(res + "2");
+        // console.log(res + "2");
       } else {
         setOk(false);
       }
@@ -22,6 +22,6 @@ export default function Private({ children }) {
       authCheck();
     }
   }, [auth?.token]);
-  console.log(ok + "3");
+  // console.log(ok + "3");
   return ok ? <Outlet /> : <Spinner />;
 }
