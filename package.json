@@ -14,6 +14,7 @@
   "license": "ISC",
   "description": "ecommerce rest api",
   "dependencies": {
+    "antd": "^5.25.1",
     "bcrypt": "^5.1.1",
     "colors": "^1.4.0",
     "concurrently": "^9.1.2",
