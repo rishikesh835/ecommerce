@@ -138,14 +138,17 @@ const HomePage = () => {
             </button>
           </div>
         </div>
-        <div className="col-md-9">
+        <div className="col-md-10">
           <h1 className="text-center">All Products</h1>
           <div className="d-flex flex-wrap">
             {products?.map((p) => (
-              <div className="card m-2" style={{ width: "18rem" }}>
+              <div
+                className="card m-2"
+                style={{ width: "18rem", height: "25rem" }}
+              >
                 <img
                   src={`/api/v1/product/product-photo/${p._id}`}
-                  className="card-img-top"
+                  className="card-img-top h-50 w-100"
                   alt={p.name}
                 />
                 <div className="card-body">
@@ -194,6 +197,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      i
     </Layout>
   );
 };
