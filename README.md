@@ -46,6 +46,4 @@ open the folder in any editor
 - Search, Filter, and single product
 - Shopping Cart
 - User profile
-- Payment gateway
 - User orders list
-- Deployment
